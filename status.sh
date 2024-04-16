@@ -33,7 +33,9 @@ while true; do
         brightness_emoji="🌙"
     fi
 
-    echo "📶 SSID: $wifi | $volume_emoji VOL: $volume% | $brightness_emoji BR: $brightness/255 | RAM: $ram_used / $ram_full | $power_used W | $battery_emoji BAT: $battery% | $date"
+    power_emoji="⚡"
+
+    echo "📶 SSID: $wifi | $volume_emoji VOL: $volume% | $brightness_emoji BR: $brightness/255 | 🧠 RAM: $ram_used / $ram_full | ⚡ $power_used W | $battery_emoji BAT: $battery% | ⏳ $date"
 
     sleep 0.2
 done
